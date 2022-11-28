@@ -158,6 +158,16 @@ function preCheck {
                     ;;
             esac
             ;;
+        "ALT Server")
+            case "$2" in
+                "10.1")
+                    echo "OK"
+                    ;;
+                *)
+                    echo "FAIL"
+                    ;;
+            esac
+            ;;
         *)
             echo "FAIL"
             ;;
