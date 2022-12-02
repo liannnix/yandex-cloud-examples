@@ -160,7 +160,7 @@ function preCheck {
             ;;
         "ALT Server")
             case "$2" in
-                "10.*")
+                10.*)
                     echo "OK"
                     ;;
                 *)
